@@ -131,3 +131,8 @@ body {
     height: 400px;
     width: 80vh;
 }
+
+.btn-primary{
+    display:flex wrap;
+    display: inline-flex;
+}
