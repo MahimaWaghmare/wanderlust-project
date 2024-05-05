@@ -131,3 +131,7 @@ body {
     height: 400px;
     width: 80vh;
 }
+
+.btn-primary {
+    margin-left: 20px;
+}
