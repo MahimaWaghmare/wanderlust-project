@@ -32,6 +32,9 @@
         <form method="post" action="/listings/<%= listing._id %>?_method=Delete">
             <button class="btn btn-dark offset-5">Delete</button>
         </form>
+        <form action="">
+          <button class="btn btn-dark book-btn mt-3">Book</button>
+        </form>
     </div>
     <% } %>
 
@@ -90,9 +93,6 @@
                 
           <form class="mb-3" method="post" action="/listings/<%= listing._id %>/reviews/<%= review._id %>?_method=DELETE">
             <button class="btn btn-sm btn-dark">Delete</button>
-          </form>
-          <form action="">
-            <button class="btn btn-dark delete-btn mt-3">Book</button>
           </form>
         </div>
         </div>
